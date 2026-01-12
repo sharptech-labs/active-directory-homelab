@@ -1,6 +1,6 @@
 # Active Directory Home Lab (2025)
 
-This repository documents my full Active Directory home lab environment, including:
+This repository documents my full Active Directory home lab environment using Oracle VirtualBox, including:
 
 - Windows Server 2022 installation
 - Windows 11 client installation
