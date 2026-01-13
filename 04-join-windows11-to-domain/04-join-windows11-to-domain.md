@@ -1,92 +1,271 @@
-# Joining a Windows 11 Machine to a Windows Server 2022 Domain
+<h1>Joining a Windows 11 Machine to a Windows Server 2022 Domain</h1>
 
-Start the Windows Server 2022 VM in VirtualBox and log in.  
-![Image](https://imgur.com/h1D0Frx.png)  
-![Image](https://imgur.com/pAfAa2z.png)
+<br />
 
-Open Devices → Network → Network Settings.  
-![Image](https://imgur.com/T7ISdlL.png)
+<h3>Start the Windows Server 2022 VM in VirtualBox and log in.</h3>
+<br />
 
-Select “Host‑only Adapter” from the dropdown.  
-![Image](https://imgur.com/pt49ndx.png)
+<p align="center">
+  <img src="https://imgur.com/h1D0Frx.png" width="85%" />
+</p>
 
-Open Control Panel → Network and Internet → Network and Sharing Center.  
-![Image](https://imgur.com/tKkmtzO.png)
+<p align="center">
+  <img src="https://imgur.com/pAfAa2z.png" width="85%" />
+</p>
 
-Click “Change adapter settings” on the left.  
-*(No image)*
+<br />
+<br />
 
-Click “Ethernet” → Properties.  
-![Image](https://imgur.com/J1eAxdJ.png)
+<h3>Open Devices → Network → Network Settings.</h3>
+<br />
 
-Double‑click “Internet Protocol Version 4 (TCP/IPv4)”.  
-![Image](https://imgur.com/vhPSMno.png)
+<p align="center">
+  <img src="https://imgur.com/T7ISdlL.png" width="85%" />
+</p>
 
-Select “Use the following IP address” and enter your server’s static IP.  
-![Image](https://imgur.com/0bzqaf6.png)
+<br />
+<br />
 
-Click OK and close all windows.  
-![Image](https://imgur.com/56YLOdd.png)
+<h3>Select “Host‑only Adapter” from the dropdown.</h3>
+<br />
 
-Start your Windows 11 VM and log in.  
-*(No image)*
+<p align="center">
+  <img src="https://imgur.com/pt49ndx.png" width="85%" />
+</p>
 
-Open Network and Sharing Center again.  
-![Image](https://imgur.com/MsN9Lbg.png)
+<br />
+<br />
 
-Click “Change adapter settings”.  
-*(No image)*
+<h3>Open Control Panel → Network and Internet → Network and Sharing Center.</h3>
+<br />
 
-Click “Ethernet” → Properties.  
-*(No image)*
+<p align="center">
+  <img src="https://imgur.com/tKkmtzO.png" width="85%" />
+</p>
 
-Double‑click “Internet Protocol Version 4 (TCP/IPv4)”.  
-![Image](https://imgur.com/HoCLytG.png)
+<br />
+<br />
 
-Select “Use the following IP address” and enter your Windows 11 static IP.  
-![Image](https://imgur.com/J1Ecu9f.png)
+<h3>Click “Change adapter settings” on the left.</h3>
+<br />
 
-Open Devices → Network → Network Settings.  
-![Image](https://imgur.com/zk7Fj08.png)
+<br />
+<br />
 
-Select “Host‑only Adapter”.  
-![Image](https://imgur.com/FVmdm5D.png)
+<h3>Click “Ethernet” → Properties.</h3>
+<br />
 
-Click OK and close all windows.  
-*(No image)*
+<p align="center">
+  <img src="https://imgur.com/J1eAxdJ.png" width="85%" />
+</p>
 
-Open Command Prompt and ping your domain name.  
-![Image](https://imgur.com/SmJ3CnV.png)
+<br />
+<br />
 
-Open File Explorer → click “This PC” → Properties.  
-![Image](https://imgur.com/rDkqcsF.png)
+<h3>Double‑click “Internet Protocol Version 4 (TCP/IPv4)”.</h3>
+<br />
 
-Click “Domain or workgroup”.  
-![Image](https://imgur.com/RvxP8gb.png)
+<p align="center">
+  <img src="https://imgur.com/vhPSMno.png" width="85%" />
+</p>
 
-Click “Change”, select “Domain”, and enter your domain name.  
-![Image](https://imgur.com/iZeVD4h.png)  
-![Image](https://imgur.com/iMsxcZi.png)
+<br />
+<br />
 
-Enter administrator credentials when prompted.  
-*(No image)*
+<h3>Select “Use the following IP address” and enter your server’s static IP.</h3>
+<br />
 
-Click OK, close System Properties, and restart the VM.  
-![Image](https://imgur.com/Q2efu9g.png)  
-![Image](https://imgur.com/ibSUnJ5.png)
+<p align="center">
+  <img src="https://imgur.com/0bzqaf6.png" width="85%" />
+</p>
 
-On the Server 2022 VM, open Server Manager → Tools → Active Directory Users and Computers.  
-![Image](https://imgur.com/VWg25vN.png)
+<br />
+<br />
 
-Verify the Windows 11 machine appears under “Computers”.  
-![Image](https://imgur.com/4XXcfvI.png)
+<h3>Click OK and close all windows.</h3>
+<br />
 
-On the Windows 11 login screen, select “Other user”.  
-*(No image)*
+<p align="center">
+  <img src="https://imgur.com/56YLOdd.png" width="85%" />
+</p>
 
-Enter the domain username and password you created.  
-![Image](https://imgur.com/FH9zSOE.png)
+<br />
+<br />
 
-You are now logged into the domain‑joined Windows 11 machine.  
-*(No image)*
+<h3>Start your Windows 11 VM and log in.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Open Network and Sharing Center again.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/MsN9Lbg.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Click “Change adapter settings”.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Click “Ethernet” → Properties.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Double‑click “Internet Protocol Version 4 (TCP/IPv4)”.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/HoCLytG.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Select “Use the following IP address” and enter your Windows 11 static IP.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/J1Ecu9f.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Open Devices → Network → Network Settings.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/zk7Fj08.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Select “Host‑only Adapter”.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/FVmdm5D.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Click OK and close all windows.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Open Command Prompt and ping your domain name.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/SmJ3CnV.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Open File Explorer → click “This PC” → Properties.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/rDkqcsF.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Click “Domain or workgroup”.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/RvxP8gb.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Click “Change”, select “Domain”, and enter your domain name.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/iZeVD4h.png" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/iMsxcZi.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Enter administrator credentials when prompted.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Click OK, close System Properties, and restart the VM.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/Q2efu9g.png" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/ibSUnJ5.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>On the Server 2022 VM, open Server Manager → Tools → Active Directory Users and Computers.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/VWg25vN.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>Verify the Windows 11 machine appears under “Computers”.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/4XXcfvI.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>On the Windows 11 login screen, select “Other user”.</h3>
+<br />
+
+<br />
+<br />
+
+<h3>Enter the domain username and password you created.</h3>
+<br />
+
+<p align="center">
+  <img src="https://imgur.com/FH9zSOE.png" width="85%" />
+</p>
+
+<br />
+<br />
+
+<h3>You are now logged into the domain‑joined Windows 11 machine.</h3>
+<br />
 
