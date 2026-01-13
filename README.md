@@ -39,7 +39,7 @@ Prepare a Windows Server 2022 virtual machine in VirtualBox, install Guest Addit
 Create a Windows 11 client VM, configure networking, bypass VirtualBox TPM limitations, and prepare it for domain joining.
 
 ### 03 — Active Directory Domain Services (Coming Soon)  
-Install AD DS, promote the server to a domain controller, configure DNS, and establish the core domain environment.
+Install AD DS, promote the server to a domain controller, and create a shared folder.
 
 ### 04 — Join Windows 11 to the Domain (Coming Soon)  
 Connect the client machine to the domain and validate authentication, DNS, and trust relationships.
