@@ -44,23 +44,22 @@ Install AD DS, promote the server to a domain controller, make first user, and c
 ### 04 — Join Windows 11 to the Domain   
 Connect the client machine to the domain and validate authentication.
 
-### 05 — Users, Groups, and OUs (Coming Soon)  
-Create and manage users, security groups, and organizational units following real-world best practices.
+### 05 — User and Access Management  
+Manage users, reset passwords, set logon hours, and account expiration.
 
-### 06 — Group Policy (Coming Soon)  
-Deploy and test GPOs for security, configuration, and user experience management.
+### 06 — OUs, Groups, and Group Policy
+Deploy and test GPOs, create security groups,
 
 ### 07 — DHCP, NAT, and Routing (Coming Soon)  
 Configure DHCP scopes, NAT, and routing services to simulate a functional internal network.
 
-### 08 — Helpdesk Ticket Simulations (Coming Soon)  
+### 08 — File Sharing and Permissions (Coming Soon)
+
+### 09 — Helpdesk Ticket Simulations (Coming Soon)  
 Troubleshoot realistic AD issues such as password resets, lockouts, DNS failures, and domain join errors.
 
-### 09 — Patch Management (Coming Soon)  
-Implement Windows Update rings, WSUS concepts, and patch deployment strategies to simulate real-world update management.
-
-### 10 — Reporting and Audit (Coming Soon)  
-Explore event logs, auditing policies, AD reporting tools, and methods for monitoring domain activity.
+### 10 — Patch Management (Coming Soon)  
+Implement Action1, and patch deployment strategies to simulate real-world update management.
 
 <br>
 
@@ -93,7 +92,8 @@ Explore event logs, auditing policies, AD reporting tools, and methods for monit
 - Security hardening  
 - Backup and recovery  
 - Multi-site domain replication  
-- Optional Linux integration  
+- Optional Linux integration
+- Reporting and audits  
 
 <br>
 
