@@ -48,7 +48,7 @@ Connect the client machine to the domain and validate authentication.
 Manage users, reset passwords, set logon hours, and account expiration.
 
 ### 06 — OUs, Groups, and Group Policy
-Deploy and test GPOs, create security groups,
+Deploy and test GPOs, create security groups, and create log-in scripts.
 
 ### 07 — DHCP, NAT, and Routing (Coming Soon)  
 Configure DHCP scopes, NAT, and routing services to simulate a functional internal network.
