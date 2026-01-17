@@ -58,7 +58,7 @@
 <h3>Press OK</h3>
 <br />
 
-<h1>Lets Add Your User to This Group Now</h1>
+<h1>Lets add your user to this group now</h1>
 <br /><br />
 
 <h3>Inside the OU, right-click your user and press "Add to a group"</h3>
@@ -118,7 +118,7 @@
 <h3>Press OK</h3>
 <br />
 
-<h1>Now Let's Add a Few Restrictions to This Ou</h1>
+<h1>Now Let's add a few restrictions to this OU</h1>
 <br /><br />
 
 <h3>Right-click the GPO and click Edit</h3>
@@ -128,7 +128,7 @@
 </p>
 <br /><br />
 
-<h3>Navigate through User Configurati0n→Policies→Administrative Templates→System→Ctrl+Alt+Del Option</h3>
+<h3>Navigate through User Configuration→Policies→Administrative Templates→System→Ctrl+Alt+Del Option</h3>
 <br />
 
 <h3>Double-click "Remove Task Manager"</h3>
@@ -148,7 +148,7 @@
 <h3>Now lets do another</h3>
 <br />
 
-<h3>Navigate through User Configurati0n→Policies→Administrative Templates→Control Panel</h3>
+<h3>Navigate through User Configuration→Policies→Administrative Templates→Control Panel</h3>
 <br />
 
 <h3>Double-click "Prohibit access to Control Panel and PC settings"</h3>
@@ -238,7 +238,7 @@
 <h3>Our GPO worked!</h3>
 <br />
 
-<h1>Lets Create a More Realistic OU Structure Now</h1>
+<h1>Lets Create a more realistic OU structure Now</h1>
 <br /><br />
 
 <h3>On (your domain controller), open Active Directory Users and Computers.</h3>
