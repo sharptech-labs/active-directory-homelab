@@ -1,4 +1,4 @@
-<h1>Lets Create an OU Now, just a simple one, later we will create a business</h1>
+<h1>Lets create an OU Now, just a simple one, later we will create a business</h1>
 <br /><br />
 
 <h3>Open Active Directory Users and Computers</h3>
