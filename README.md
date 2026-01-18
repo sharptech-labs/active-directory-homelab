@@ -50,15 +50,10 @@ Manage users, reset passwords, set logon hours, and account expiration.
 ### 06 — OUs, Groups, and Group Policy
 Deploy and test GPOs, create security groups, and create log-in scripts.
 
-### 07 — DHCP, NAT, and Routing (Coming Soon)  
-Configure DHCP scopes, NAT, and routing services to simulate a functional internal network.
-
-### 08 — File Sharing and Permissions (Coming Soon)
-
-### 09 — Helpdesk Ticket Simulations (Coming Soon)  
+### 07 — Helpdesk Ticket Simulations (Coming Soon)  
 Troubleshoot realistic AD issues such as password resets, lockouts, DNS failures, and domain join errors.
 
-### 10 — Patch Management (Coming Soon)  
+### 08 — Patch Management (Coming Soon)  
 Implement Action1, and patch deployment strategies to simulate real-world update management.
 
 <br>
