@@ -1,8 +1,8 @@
 <h1>07-Troubleshooting Tickets (Tier‑1 Active Directory Challenge)</h1>
 
 <p>
-  This module features a set of troubleshooting tickets from a Tier‑1 Active Directory challenge created by 
-  <strong>jakehulberg</strong>. I built and configured my Server 2022 Active Directory environment specifically 
+  This module features a set of tickets from the Tier‑1 Active Directory challenge created by 
+  <strong>jakehulberg</strong>. I built and configured my Windows Server 2022 Active Directory environment specifically 
   to run this challenge and work through each issue. A break script will be introduced in this module to intentionally 
   create problems within the domain controller. My goal is to solve each ticket and document the issue, my 
   troubleshooting process, and the final resolution.
