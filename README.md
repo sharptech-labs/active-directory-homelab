@@ -53,7 +53,7 @@ Deploy and test GPOs, create security groups, and create log-in scripts.
 ### 07 — Helpdesk Ticket Simulations (Coming Soon)  
 Troubleshoot realistic AD issues such as password resets, lockouts, DNS failures, and domain join errors.
 
-### 08 — Patch Management (Coming Soon)  
+### 08 — Patch Management  
 Implement Action1, and patch deployment strategies to simulate real-world update management.
 
 <br>
